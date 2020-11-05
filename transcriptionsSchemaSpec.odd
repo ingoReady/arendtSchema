@@ -365,7 +365,7 @@
             <attDef ident="xml:base" mode="delete"/>
             <attDef ident="xml:space" mode="delete"/>
             
-            <attDef ident="type" mode="change">
+            <attDef ident="type" mode="change" usage="req">
               <valList type="closed" mode="replace">
                 <valItem ident="mainHeading"/>
                 <valItem ident="subHeading"/>
@@ -927,6 +927,7 @@
             <attDef ident="decls" mode="delete"/>
             <attDef ident="exclude" mode="delete"/>
             <attDef ident="facs" mode="delete"/>
+            <attDef ident="hand" mode="delete"/>
             <attDef ident="n" mode="delete"/>
             <attDef ident="next" mode="delete"/>
             <attDef ident="part" mode="delete"/>
@@ -1248,10 +1249,8 @@
             
             <attDef ident="type" mode="change">
               <valList type="closed" mode="replace">
-                <valItem ident="pagenumber"/>
-                <valItem ident="mainHeading"/>
                 <valItem ident="subHeading"/>
-                <valItem ident="motto"/>
+                <valItem ident="mainHeading"/>
                 <valItem ident="edHeading"/>
                 <valItem ident="noD"/>
                 <valItem ident="insertFromPage"/>
@@ -1271,8 +1270,10 @@
             <attDef ident="exclude" mode="delete"/>
             <attDef ident="facs" mode="delete"/>
             <attDef ident="function" mode="delete"/>
+            <attDef ident="hand" mode="delete"/>
             <attDef ident="met" mode="delete"/>
             <attDef ident="next" mode="delete"/>
+            <attDef ident="notation" mode="delete"/>
             <attDef ident="part" mode="delete"/>
             <attDef ident="prev" mode="delete"/>
             <attDef ident="real" mode="delete"/>
@@ -1294,10 +1295,8 @@
             <attDef ident="type" mode="change">
               <valList type="closed" mode="replace">
                 <valItem ident="mdash"/>
-                <valItem ident="pagenumber"/>
                 <valItem ident="subHeading"/>
                 <valItem ident="mainHeading"/>
-                <valItem ident="motto"/>
                 <valItem ident="noD"/>
                 <valItem ident="sqBracketL"/>
                 <valItem ident="sqBracketR"/>
@@ -1309,18 +1308,9 @@
             <attDef ident="rend" mode="change">
               <valList type="closed" mode="replace">
                 <valItem ident="locHorizontal"/>
-                <valItem ident="paddingLeft"/>
-                <valItem ident="singlespaced"/>
               </valList>
             </attDef>
             
-            <attDef ident="hand" mode="change">
-              <valList type="closed" mode="replace">
-                <valItem ident="#HA2"/>
-                <valItem ident="unknown"/>
-                <valItem ident="edZionism"/>
-              </valList>
-            </attDef>
           </attList>
         </elementSpec>
         
@@ -1336,22 +1326,17 @@
             <attDef ident="next" mode="delete"/>
             <attDef ident="prev" mode="delete"/>
             <attDef ident="rendition" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
             <attDef ident="resp" mode="delete"/>
             <attDef ident="sameAs" mode="delete"/>
             <attDef ident="select" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
             <attDef ident="style" mode="delete"/>
             <attDef ident="subtype" mode="delete"/>
             <attDef ident="synch" mode="delete"/>
             <attDef ident="xml:base" mode="delete"/>
             <attDef ident="xml:lang" mode="delete"/>
             <attDef ident="xml:space" mode="delete"/>
-            
-            <attDef ident="rend" mode="change">
-              <valList type="closed" mode="replace">
-                <valItem ident="alignRight"/>
-                <valItem ident="inline"/>
-              </valList>
-            </attDef>
             
             <attDef ident="type" mode="change" usage="req">  
               <valList type="closed" mode="replace">
