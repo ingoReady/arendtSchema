@@ -1128,7 +1128,6 @@
               </valList>
             </attDef>
             
-            <!--default TEI does not permit @hand for div. Doesnt work for now, have to look into it.--> 
             <attDef ident="hand" mode="change">
               <desc>Provides information on the default hand of the division of text.</desc>
               <valList type="closed" mode="replace">
